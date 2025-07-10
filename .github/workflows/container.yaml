@@ -8,7 +8,7 @@ on:
       - "packages/container/**"
 
 defaults:
-  runs:
+  run:
     working-directory: "packages/container"
 
 jobs:
