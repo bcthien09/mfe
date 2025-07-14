@@ -5,11 +5,11 @@ on:
     branches:
       - main
     paths:
-      - "packages/marketing/**"
+      - packages/marketing/**
 
 defaults:
   run:
-    working-directory: "packages/marketing"
+    working-directory: packages/marketing
 
 jobs:
   build:
